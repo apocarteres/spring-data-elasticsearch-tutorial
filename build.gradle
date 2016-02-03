@@ -5,7 +5,7 @@ sourceCompatibility = 1.8
 //noinspection GroovyUnusedAssignment
 targetCompatibility = 1.8
 //noinspection GroovyUnusedAssignment
-mainClassName='ru.decipher.tutorial.Bootstrap'
+mainClassName = 'ru.decipher.tutorial.Bootstrap'
 
 version = '0.1'
 
@@ -35,6 +35,5 @@ dependencies {
     compile('org.springframework.boot:spring-boot:' + springBootVersion)
     compile('org.springframework.boot:spring-boot-autoconfigure:' + springBootVersion)
     compile('org.springframework.boot:spring-boot-starter-log4j:' + springBootVersion)
-
-    compile('org.springframework.boot:spring-boot-starter-data-elasticsearch:1.2.4.RELEASE')
+    compile('org.springframework.boot:spring-boot-starter-data-elasticsearch:' + springBootVersion)
 }
